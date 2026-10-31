@@ -5,10 +5,10 @@ description = "Scripts for the Southern World Assembly Initiative program of the
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "google-api-python-client>=2.193.0",
-    "networkx>=3.6.1",
-    "requests>=2.33.0",
+    "google-api-python-client>=2.201.0",
+    "networkx>=3.7",
+    "requests>=2.34.2",
 ]
 
 [dependency-groups]
-dev = ["ruff>=0.15.8"]
+dev = ["ruff>=0.17.3"]
